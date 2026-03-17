@@ -1,0 +1,9 @@
+# Copiaza acest fisier ca terraform.tfvars si completeaza valorile
+
+proxmox_host     = "https://192.168.1.100:8006/api2/json"
+proxmox_user     = "root@pam"
+proxmox_password = "PAROLA_TA_PROXMOX"
+
+# Genereaza cu: ssh-keygen -t ed25519 -C "thesis"
+# Apoi copiaza continutul din ~/.ssh/id_ed25519.pub
+ssh_public_key = "ssh-ed25519 AAAA... user@host"
