@@ -1,0 +1,10 @@
+# Copiaza ca terraform.tfvars si completeaza
+
+proxmox_host     = "https://192.168.1.100:8006"
+proxmox_user     = "terraform@pve"
+proxmox_password = "PAROLA_TERRAFORM_USER"
+vm_password      = "Thesis2024!"
+
+# ssh-keygen -t ed25519 -C "thesis" -f ~/.ssh/id_ed25519 -N ""
+# cat ~/.ssh/id_ed25519.pub
+ssh_public_key = "ssh-ed25519 AAAA... thesis"
